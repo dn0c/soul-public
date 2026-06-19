@@ -1,0 +1,3 @@
+﻿"Policies are part of the organizational code of a company. Not only should that code be open source, it should be tinkered with, improved, critiqued, forked, and refactored. Lets do that." - All Basecamp policies are now on GitHub and licensed under creative commons via Instapaper https://ift.tt/2zWlmXW
+
+December 14, 2018 at 06:46PM

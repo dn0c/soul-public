@@ -1,0 +1,1 @@
+I’m here to convince you that Google Sheets, with the proper guardrails in place, is an excellent way for colleagues outside of an analytics team to input tabular data for downstream use, even in automated transformations!

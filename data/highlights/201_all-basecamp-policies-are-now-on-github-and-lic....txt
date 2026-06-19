@@ -1,0 +1,1 @@
+Policies are part of the organizational code of a company. Not only should that code be open source, it should be tinkered with, improved, critiqued, forked, and refactored. Let’s do that.

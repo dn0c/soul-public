@@ -25,3 +25,6 @@ You can edit this file manually to remove noise or add things the agent missed.
 - **2026-06-13**: Reviewed blog_posts.md (full Tumblr archive, 2010–2018). File had triplicated content (8,435 → 5,019 lines after cleanup). Three sections: main "This Week" archive (2018→2010), Modest Operations transition note, "Other Posts" (2012→2010 personal/photo posts). Added Photography to SOUL.md Interests (365 project, printed book, 16Hours feature). Added brief Modest Operations mention to Who I Am. 2015–2018 content not fully reviewed — low expected yield, SOUL.md already comprehensive.
 
 - **2026-06-18**: Memory system expanded. New files added: memory/health.md (transplant history, sobriety date Aug 5 2024, exercise, Lexapro), memory/finance.md (accounts, mortgage, cars), memory/people/contacts.md (Bryan Collins, Dr. Copeland, coachees, partner contacts). identity.md updated with career timeline and working rhythm. Netflix reached out May 2026 for a role — Drew passed, found it not compelling. Sobriety milestone: approaching 2 years August 2026.
+
+- **2026-06-19**: User deleted `identity.md` from the memory folder. Directed all future agents to reference `Soul MD/SOUL.md` for key information, timeline, and working rhythm.
+

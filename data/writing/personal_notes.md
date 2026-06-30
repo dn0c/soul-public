@@ -1,3 +1,21 @@
+Jun 26, 2026
+
+## Information bucketing — a framework seed
+
+We're constantly bombarded with information. The important thing — for individuals and teams alike — is having a system to capture, organize, and route information into "buckets" you can engage with later in the right mindframe, with the right equipment and context. LLMs and AI note-taking tools help, but they primarily solve *capture*, not *bucketing*. A transcript is just more information that also needs to be organized. A lot of the confusion and swirl inside organizations comes not from too much information, but from information that hasn't been bucketed appropriately.
+
+The failure modes look different at each level:
+
+**Personal:** Pre-taxonomic. People aren't mis-bucketing — they're not bucketing at all. Attention goes to whatever arrived most recently or most loudly ("latest and loudest"). Things fall through the cracks not because of a bad system but because no system is operating. The intervention here is closer to habit and mindset than tooling.
+
+**Organizational:** Discipline + taxonomy. Buckets may partially exist (a Confluence, a shared drive, channel conventions in Slack) but people don't use them consistently — and the taxonomy itself is usually underdefined. Nobody agreed on what the buckets actually are or what goes where.
+
+The bucket matters because it encodes the *mode* you need to be in when you come back to something. An FYI, a decision request, and background research all require completely different mental postures — but if they arrive the same way and live in the same place, the retrieval cost goes up enormously and things get missed.
+
+→ Possible future angles: LinkedIn post, essay, career pitch (this is core to what a KM/Information Architecture role actually does)
+
+---
+
 Jun 10, 2026
 
 ## Evolution of search in content consumption

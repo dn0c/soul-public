@@ -22,7 +22,7 @@ Your watch curation shows a strong preference for **vintage-inspired tool watche
     *   **Grand Seiko SBGJ231** (the vibrant blue "Mount Iwate" dial GMT).
     *   **Seiko 5 Sports (Caliber 4R36)** (the entry-level mechanical workhorse) and **Seiko SSB479**.
 *   **Military & Field Utilities:**
-    *   **Hamilton Khaki Field Mechanical (Black PVD)** (Hodinkee edition, mil-spec classic with an updated movement).
+    *   **Hamilton Khaki Field Mechanical (Black PVD)** ( Hodinkee edition, mil-spec classic with an updated movement).
     *   **Rado Captain Cook** (vintage skin diver reissue).
 
 ### 🧥 Independent Menswear & Craft Brands
@@ -74,7 +74,7 @@ You collect wisdom advocating for the aggressive pruning of noise in order to pr
 You are deeply skeptical of startup hype and the cultural expectation of instantaneous response:
 *   **Sustainable vs. Revolutionary:** You follow Austin Carr's critique of the Silicon Valley cliché of "failing fast" and "changing the world." You appreciate the value of building a business that is *merely sustainable* rather than grandiosely revolutionary.
 *   **Startup Culture Debt:** You track Phil Libin’s (Evernote) insight that startup culture is not lost by accident, but because companies fail to explicitly pay for it: *"It's that you explicitly have to pay for it... It is not inevitable that you cease to be a start-up. But if you don't do anything, you will."*
-*   **One-Person Products:** You support Marco Arment’s model of building sustainable, one-person software products (e.g., Instapaper, Tumblr safety nets) that provide financial freedom to work on whatever they want.
+*   **One-Person Products:** You support Marco Arment’s model of building sustainable, one-person software products (e.g., Instapaper, Tumblr safety nets) that provide financial freedom to work on what matters, rather than scaling forever.
 *   **The Danger of Instantaneity:** You bookmark Andrew Torba’s warnings regarding the dangerous cultural shift toward expecting instantaneous responses, which fragments human thought.
 
 ### 3. Curation vs. Lived Experience (Aesthetics & Provenance)

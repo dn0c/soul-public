@@ -28,3 +28,5 @@ You can edit this file manually to remove noise or add things the agent missed.
 
 - **2026-06-19**: User deleted `identity.md` from the memory folder. Directed all future agents to reference `Soul MD/SOUL.md` for key information, timeline, and working rhythm.
 
+- **2026-06-24**: Indexed `data/peer_feedback/2025 - Google Annual Assessment - Gemini Notes.md` — Gemini-generated summary + full transcript of Drew's GRAD annual review (Jan 28, 2026) with Andrew Peterson (manager) and Kim Larson (skip-level). Key signals extracted: Kim explicitly named Drew "the best person in the entire company" to understand CSP industry landscape, positioning him as the go-to thought leader for the upcoming BIS staff presentation. Andrew designated Drew his "two IC" and framed 2026 around skill/will/runway. Key development feedback: Drew is too deferential — collaborators want his point of view, not just facilitation. Drew's own framing: he's in the "messy middle" between top-half senior IC and junior-half leader. Agreed to quarterly career check-ins. Updated SOUL.md (Opinions > Career, Vocabulary) and contacts.md (added Kim Larson).
+

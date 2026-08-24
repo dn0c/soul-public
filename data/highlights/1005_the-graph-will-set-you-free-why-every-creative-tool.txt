@@ -1,0 +1,4 @@
+We're rediscovering that complex systems are best understood and manipulated as networks.
+Neural networks are graphs. Social networks are graphs. Supply chains are graphs. Biological systems are graphs. The internet is a graph. Your thinking is probably a graph—concepts connected by associations, not a linear sequence of propositions.
+
+Source: The Graph Will Set You Free: Why Every Creative Tool Is Becoming a Node Canvas — https://hiradsab.substack.com/p/the-graph-will-set-you-free-why-every

@@ -6,3 +6,5 @@ Three to five bullets describing how the writing should feel (get concrete—go 
 A short description of your preferred structural shape (how do your pieces open? how quickly do you get to the point?)
 A blacklist of five to 10 patterns you hate in AI-generated prose
 Two or three examples of writing you like, with a sentence or two about what you like about them
+
+Source: AI Style Guides: How to Help AI Write Like You — https://every.to/guides/ai-style-guide

@@ -1,0 +1,3 @@
+There's an old saying in software engineering called Conway's Law: organizations design systems that mirror their own communication structures.
+
+Source: The Graph Will Set You Free: Why Every Creative Tool Is Becoming a Node Canvas — https://hiradsab.substack.com/p/the-graph-will-set-you-free-why-every

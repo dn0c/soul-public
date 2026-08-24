@@ -5,3 +5,5 @@ Wittgenstein argued that the boundaries of language are the boundaries of the wo
 
 
 The sum of all your consciousness tokens forms your life context — essentially, the complete record of your expressed mind. A personalized model trained on this data constitutes a Level 1 consciousness upload: not a copy of your brain, but a functional replica of your expressed consciousness through language.  SOUL.MD operationalizes this idea without requiring fine-tuning or massive datasets. It distills the signal — your worldview, your voice, your specific takes — into structured markdown files that any LLM can embody on the fly.
+
+Source: SOUL.MD — Build a Composable AI Agent Identity — https://www.soul-md.xyz/#quickstart

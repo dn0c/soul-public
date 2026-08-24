@@ -137,7 +137,10 @@ Your home curation is defined by natural materials (timber-clad architecture), s
 ---
 
 ## 🖋️ 5. Ignorant Tattoos & Raw Art (`Tattoos`)
-*   **Aesthetics:** You collect knuckle layouts, stick-and-pokes, and **"Ignorant Style"** tattoos (marked by naive, raw, and child-like lines).
+*   **Copenhagen Trip Tattoos (August 2026):** Acquired two Ignorant-style tattoos from Mila Tatts (@milatatts) at aestet.ink in Copenhagen:
+    *   *Lighthouse* (left thigh): Represents water, flow, and grandfather Bill Hoglund.
+    *   *Chain* (left shin): Represents strength, structure, discipline, and one year of sobriety (one link at a time).
+*   **Aesthetics:** You collect knuckle layouts, stick-and-pokes, and "Ignorant Style" tattoos (marked by naive, raw, and child-like lines).
 *   **Artworks:** Mr. Bingo's *Tattoo Token* (paying independent artists fifteen quid to get their prints tattooed).
 
 ---

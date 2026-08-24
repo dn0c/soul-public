@@ -1,1 +1,3 @@
 A good communication architecture enables information to flow across the company (up and down, side to side) without impediment. It ensures that every person understands the organization’s strategy and priorities (and their own role in it); that people can easily access the information they need to do their job well; that people understand how to make and communicate decisions; problems are surfaced to leaders efficiently.
+
+Source: The CEO’s most important operational responsibility — https://medium.com/@gokulrajaram/designing-a-communication-architecture-the-ceos-most-important-operational-responsibility-28937bd291e8

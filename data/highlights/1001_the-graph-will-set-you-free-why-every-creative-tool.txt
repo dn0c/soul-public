@@ -1,3 +1,0 @@
-AI has fundamentally changed the nature of creative work from operating monolithic applications to orchestrating networks of opaque, specialized services. Node-based canvases are the only sensible interface for this new paradigm of computation. What we're witnessing is the emergence of a new medium that matches how we actually think about composition, makes invisible complexity visible, and transforms creative processes from private craft into shareable, executable knowledge.
-
-Source: The Graph Will Set You Free: Why Every Creative Tool Is Becoming a Node Canvas — https://hiradsab.substack.com/p/the-graph-will-set-you-free-why-every

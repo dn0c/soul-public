@@ -1,3 +1,0 @@
-"This is the model he likes to operate. Early in the two companies he cofounded, Paypal and Palantir, Thiel would install strong CEOs and leaders. He relies on what might be called the plenipotentiary model—empowering trusted, skilled people on his behalf to execute the bold vision he has created. In Mr. A and Harder, he needed representatives whose judgments were close enough to his own that he could be confident in his ignorance of specific issues and deploy them to the places he couldn't go, trusting them to discern which decisions were important enough to be made by Thiel alone."
-
-- Book: Conspiracy by Ryan Holiday

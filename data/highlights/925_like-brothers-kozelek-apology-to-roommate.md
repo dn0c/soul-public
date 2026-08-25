@@ -1,3 +1,0 @@
-I love the music. I am comfortable now in its sadness and don't feel the need to fight it anymore. More important, though, I want to say I'm sorry for not being a friend to you. For not even trying to understand you. For blasting weird, insensitive light into your dark, shy inner world. I get it now. But back then I simply did not understand it or make a legitimate attempt to understand it. It was a bit of a jam band hippie douchebag who was just trying to block out the darkness because I was, essentially, afraid of it. And for that, I am truly sorry. Your freshman-year roommate, Mark
-
-- Book: Like Brothers by Mark Kozelek and Jimmy LaValle

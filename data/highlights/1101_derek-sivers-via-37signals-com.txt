@@ -1,3 +1,0 @@
-Make each feature work hard to be implemented. Make each feature prove itself and show that it’s a survivor. It’s like 'Fight Club.' You should only consider features if they’re willing to stand on the porch for three days waiting to be let in.
-
-Source: Derek Sivers (via 37signals.com) — https://gettingreal.37signals.com/ch05_Start_With_No.php

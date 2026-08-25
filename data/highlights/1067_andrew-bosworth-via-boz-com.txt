@@ -1,3 +1,0 @@
-Before transitioning off the team, I did my best to help my replacements understand the system we had built. I walked them through the decisions that had allowed the system to scale. I shared advice on what to change and the roadmap we expected to follow. Six months later I checked in with the team. They had ignored everything I told them – and built something much, much better.
-
-Source: Andrew Bosworth (via boz.com) — http://boz.com/articles/shoshin.html

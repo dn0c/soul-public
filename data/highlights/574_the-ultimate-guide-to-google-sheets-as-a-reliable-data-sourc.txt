@@ -1,0 +1,7 @@
+﻿"I'm here to convince you that Google Sheets, with the proper guardrails in place, is an excellent way for colleagues outside of an analytics team to input tabular data for downstream use, even in automated transformations!"
+
+The ultimate guide to Google Sheets as a reliable data source
+
+July 2, 2019 at 01:16PM
+
+via Instapaper https://joshtemple.dev/posts/2019/05/the-ultimate-guide-to-google-sheets-as-a-reliable-data-source/

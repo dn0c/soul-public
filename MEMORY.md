@@ -32,3 +32,6 @@ You can edit this file manually to remove noise or add things the agent missed.
 
 - **2026-08-22**: Updated SOUL.md, data/arena_tastes_summary.md, memory/health.md, and CLAUDE.md to record the recent Copenhagen trip and the acquisition of two Ignorant-style tattoos from Mila Tatts (@milatatts): a lighthouse on the left thigh (representing water, flow, and grandfather Bill Hoglund) and a chain on the left shin (commemorating the one-year sobriety milestone on August 17, 2026, alongside strength, structure, and discipline). Also corrected the sobriety anniversary to August 17th (matching brother Stu's birthday) across all profile and memory files (family.md, health.md, reading.md, SOUL.md, CLAUDE.md).
 
+- **2026-08-28**: Saved the latest LinkedIn Connections export (from `Basic_LinkedInDataExport_08-27-2026.zip/Connections.gsheet` on Google Drive) as a cleaned CSV to `memory/people/linkedin_connections.csv` containing ~1700 professional contacts for future context and reference.
+
+- **2026-08-29**: Implemented the Python automation script `linkedin_connection_visitor.py` using CDP on port 9225, ran the daily batch (successfully viewing 24 profiles), updated the scheduler config in `sidecar.json`, and terminated orphaned sidecar processes.

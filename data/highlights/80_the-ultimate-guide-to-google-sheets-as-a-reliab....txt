@@ -1,3 +1,0 @@
-I’m here to convince you that Google Sheets, with the proper guardrails in place, is an excellent way for colleagues outside of an analytics team to input tabular data for downstream use, even in automated transformations!
-
-Source: The ultimate guide to Google Sheets as a reliable data source — https://towardsdatascience.com/google-sheet-data-warehouse-c22bb2cce4b0

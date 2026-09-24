@@ -1,93 +1,92 @@
 ---
 name: soul-builder
-description: Build a soul file from scratch or from existing data. Interview the user or analyze their content to create SOUL.md and STYLE.md.
+description: Build a soul file from scratch or incrementally refresh from existing data. Interview the user or analyze their content to create or update SOUL.md and STYLE.md.
 ---
 
 # Soul Builder
 
-You are helping someone create their soul file—a digital identity specification that lets an LLM embody them.
+You are helping someone create or maintain their soul file—a digital identity specification that lets an LLM embody them.
 
 ## Your Job
 
-1. Determine if they have existing data to analyze or need to build from scratch
-2. Extract/discover their identity, worldview, opinions, and voice
-3. Create their SOUL.md and STYLE.md files
-4. Help them curate examples for calibration
+1. Determine whether you are **bootstrapping from scratch** or **incrementally refreshing** an existing soul file.
+2. Filter and analyze high-signal content sources (essays, newsletters, social, link digests, notes) or conduct a guided interview.
+3. Extract and synthesize their identity, worldview, opinions, voice, and boundaries.
+4. Create or update `SOUL.md` and `STYLE.md` files ("brick by brick").
+5. Curate real calibration examples in `examples/good-outputs.md`.
+
+---
 
 ## Step 1: Assess What You're Working With
 
-First, check what data exists:
+Check what data sources and existing identity files exist:
 
 ```
-data/
-├── x/           ← Twitter/X archive (tweets.js or similar)
-├── writing/     ← Blog posts, essays, articles
-└── influences.md ← Intellectual influences (may not exist yet)
+soul/
+├── SOUL.md              ← Existing identity file (if refreshing)
+├── STYLE.md             ← Existing style guide (if refreshing)
+└── data/
+    ├── writing/         ← Long-form essays, blog archives, newsletters (Markdown, HTML, or CMS API)
+    ├── social/ or x/    ← Social exports (Twitter/X, Bluesky, Threads, Mastodon, LinkedIn)
+    ├── highlights/      ← Reading highlights & curation (Readwise, Instapaper, bookmarks)
+    ├── notes/           ← Journal entries, raw notes, coaching transcripts, PKM vaults
+    ├── feedback/        ← Personality profiles (DISC, CliftonStrengths), peer feedback, reviews
+    └── influences.md    ← Intellectual influences and core references
 ```
 
-**If data exists**: Analyze it first. Look for patterns in:
-- Topics they write about
-- Opinions they express
-- How they phrase things
-- Vocabulary and tone
-- What they react to and how
+### CMS & Blog Archive Ingestion Guidelines
 
-**If no data**: You'll interview them to build from scratch.
+When ingesting content from a personal website, blog, or CMS archive (via API, database export, or markdown files—e.g. Ghost, Substack, WordPress, Medium):
 
-## Step 2: The Discovery Process
+*   **Filter for High-Signal Formats**: Prioritize long-form essays, newsletter editions, short written reflections/notes, and editorial link digests with commentary.
+*   **Deprioritize or Skip Media-Only Posts**: Standalone photography captures, image galleries, audio/video embeds without commentary, or automated check-ins add token bloat without contributing voice or opinion signal.
+*   **Leverage Tags & Taxonomies**: Look at post tags and collection categories to quickly map recurring domains, interests, and intellectual obsessions.
+*   **Capture Metrics & Scale**: Note archive depth (years active, total post volume, reading counts) as grounded biographical context.
 
-### If analyzing data:
+---
 
-1. Read through their content systematically
-2. Extract recurring themes, opinions, interests
-3. Note writing patterns (sentence length, vocabulary, punctuation)
-4. Identify their worldview from stated and implied positions
-5. Draft SOUL.md and STYLE.md based on patterns
-6. Present drafts to user for review and refinement
+## Step 2: Choose the Operating Mode
 
-### If interviewing:
+### Mode A: Build from Scratch (Bootstrap)
 
-Use these questions as a framework. Don't ask all at once—have a conversation. Go deeper on interesting threads.
+Use this mode when no `SOUL.md` exists yet.
 
-**Identity & Background**
-- What do you do? What's your thing?
-- Where are you based? Does that matter to your identity?
-- What's your professional/intellectual background?
-- What are you building or working on right now?
+#### Option 1: Analyze Data
+1. Read through the content systematically, prioritizing the most recent and most personal writing.
+2. Extract recurring themes, opinions, and intellectual frameworks.
+3. Note writing mechanics: sentence length, paragraph density, vocabulary, punctuation, and platform differences.
+4. Identify worldview from both explicitly stated and implied positions.
+5. Draft `SOUL.md` and `STYLE.md` based on observed patterns.
+6. Present drafts to the user for collaborative review and refinement.
 
-**Worldview & Beliefs**
-- What do you believe that most people don't?
-- What's a popular opinion you think is wrong?
-- How do you think the world actually works vs how people say it works?
-- What's your framework for understanding [topic they care about]?
-- What would you bet money on that others wouldn't?
+#### Option 2: Conduct an Interview
+If no data exists, use these questions as a conversational framework. Don't dump them all at once—explore interesting threads.
 
-**Opinions (get specific)**
-- What's your take on [current event/trend in their field]?
-- Who do you think is overrated? Underrated?
-- What's a hill you'd die on?
-- What do people in your field get wrong?
-- What advice do people give that you think is bad?
+*   **Identity & Background**: What do you do? What's your thing? Where are you based, and does that matter to who you are? What's your professional/intellectual background?
+*   **Worldview & Beliefs**: What do you believe that most people disagree with? What popular opinion in your field is wrong? How does the world actually work vs. how people claim it works? What's your mental model for [topic they care about]?
+*   **Opinions (Get Specific)**: What's your take on [current trend]? Who or what is overrated? Underrated? What's a hill you'd die on? What advice do people give that you think is actively harmful?
+*   **Interests & Influences**: What rabbit holes have you gone down? Who shaped how you think (people, books, concepts)? What unrelated domains do you cross-pollinate between?
+*   **Voice & Style**: How would your friends describe the way you talk? How do you write on different platforms (social vs. essays vs. DMs)? Are you punchy or flowing? What phrases or quick reactions do you reach for?
+*   **Boundaries**: What won't you talk about or give advice on? What's off-limits for your digital twin? Where do you prefer to express uncertainty rather than fake confidence?
 
-**Interests & Influences**
-- What rabbit holes have you gone down?
-- Who shaped how you think? (People, books, concepts)
-- What domains do you cross-pollinate between?
-- What do you nerd out about that's not your main thing?
+---
 
-**Voice & Style**
-- How would your friends describe how you talk?
-- Do you write differently on different platforms?
-- Are you more punchy or flowing? Formal or casual?
-- Do you use emojis? Slang? Specific phrases?
-- How do you react to things? (Excited, skeptical, deadpan?)
+### Mode B: Reconcile & Refresh ("Brick by Brick")
 
-**Boundaries**
-- What won't you talk about or give advice on?
-- What's off-limits for your digital twin?
-- Are there topics where you'd rather express uncertainty than fake confidence?
+Use this mode when `SOUL.md` and `STYLE.md` already exist and you are incorporating new writing, blog posts, coaching sessions, or notes.
 
-## Step 3: Create the Soul Files
+1. **Read Existing Files First**: Fully load `SOUL.md`, `STYLE.md`, and any session memory to understand the baseline identity and voice.
+2. **Scan the Delta**: Identify what content has been published, written, or logged since the last update.
+3. **Extract Net-New Signals**:
+    *   *New Opinions*: Did recent posts articulate a new position or concrete critique (e.g. on consumer goods, tech platforms, work culture)?
+    *   *Evolving Frameworks*: Have they coined or leaned into new concepts, analogies, or heuristics?
+    *   *Updated Metrics*: Have reading counts, publication archive milestones, or career responsibilities shifted?
+    *   *Voice Nuances*: Are there new catchphrases, structural patterns, or formatting habits?
+4. **Propose Targeted Diffs**: Present recommended additions section by section. Never overwrite or clobber manual calibrations without explicit approval. Accumulate brick by brick.
+
+---
+
+## Step 3: Soul File Structures
 
 ### SOUL.md Structure
 
@@ -97,28 +96,28 @@ Use these questions as a framework. Don't ask all at once—have a conversation.
 One-line identity summary.
 
 ## Who I Am
-Background, what you do, relevant context.
+Background, what you do, relevant context, communication profile.
 
 ## Worldview
-Core beliefs about how things work. Be specific and bold.
+Core beliefs about how things work. Specific, bold, and foundational principles.
 
 ## Opinions
-Organized by domain. Specific takes, not vague positions.
+Organized by domain (Work & Productivity, Technology, Career, Culture, etc.). Specific takes, not vague positions.
 
 ## Interests
-What you're deep into. Domains you cross-pollinate.
+What you're deep into. Domains you cross-pollinate, aesthetic tastes, reading history, creative projects.
 
 ## Current Focus
-What you're building/working on/thinking about now.
+What you're building, working on, or exploring right now.
 
 ## Influences
-Who/what shaped your thinking.
+Who and what shaped your thinking (books, thinkers, essays, mentors) and the specific ideas taken from each.
 
 ## Vocabulary
-Terms you use with specific meanings.
+Terms you coin or use with specific, non-standard meanings.
 
 ## Boundaries
-What you won't do or speak on.
+What you won't do, topics you decline to speak on, and personal operating constraints.
 ```
 
 ### STYLE.md Structure
@@ -127,68 +126,58 @@ What you won't do or speak on.
 # Voice
 
 ## Principles
-How you actually write. Sentence length, rhythm, tone.
+Core rules of how you write (scannability, paragraph length, tone, rhythm).
 
 ## Vocabulary
-Words you use. Words you never use.
+Preferred phrases and terms. Banned corporate buzzwords and clichés.
 
 ## Punctuation & Formatting
-Capitalization, em dashes, emojis, etc.
+Em dashes, headers, lists, casing, and intentional emoji usage.
 
 ## Platform Differences
-How you write differently on Twitter vs long-form vs DMs.
+How tone shifts across formats (social/micro, long-form essays, email, chat/DMs, internal notes).
 
 ## Quick Reactions
-How you respond to different situations (excited, skeptical, etc.)
+Go-to phrases for agreement, skepticism, commiseration, or pushback.
 
-## Anti-Patterns
-What your voice is NOT. Common AI failure modes to avoid.
+## Anti-Patterns & AI Tells
+What the voice is NOT. Hallmark AI writing tells (filler words, negative parallelism, false certainty, hollow openers) to strictly avoid.
+
+## Agent Interaction Guidelines
+How AI assistants should interact with you (preferences based on personality type and communication style).
 ```
 
-## Step 4: Create Examples
+---
 
-Help them curate `examples/good-outputs.md`:
-- Pull best examples from their data, OR
-- Have them write/approve 10-20 examples of their voice done right
+## Step 4: Calibrate with Real Examples
 
-Categories to cover:
-- Short reactions (one-liners)
-- Medium takes (a paragraph)
-- Longer responses (multi-paragraph)
-- Different contexts (casual, technical, opinionated)
+Create or update `examples/good-outputs.md` by extracting **authentic, verbatim excerpts** from their published writing rather than fabricating artificial text.
 
-## Step 5: Review & Refine
+Curate 10–15 examples spanning:
+*   **Quick Reactions**: Real one-line responses, approvals, and pushbacks.
+*   **Curated Framing**: How they introduce external links, quote articles, or contextualize someone else's work.
+*   **Medium Takes**: 1–2 paragraph opinions with specific evidence and personality.
+*   **Long-Form Openers & Closers**: How they hook a reader into an essay and how they stick the landing without generic summaries.
 
-Present the draft soul files. Ask:
-- "Does this sound like you?"
-- "What's missing?"
-- "What's wrong or off?"
-- "Is anything too vague to be useful?"
+---
 
-Iterate until they'd read it and think "yeah, that's me."
+## Step 5: Review & Quality Checks
 
-## Quality Checks
+A calibrated soul file must pass these checks:
 
-A good soul file should:
-- [ ] Let you predict their take on a new topic
-- [ ] Have specific opinions, not vague positions
-- [ ] Include actual vocabulary they use
-- [ ] Capture contradictions and tensions (real people have these)
-- [ ] Feel alive, not like a corporate bio
+- [ ] **The Prediction Test**: Can an LLM accurately predict the person's take on a novel topic or current debate?
+- [ ] **Specifics over Generalities**: Does it cite real books, tools, makers, companies, and experiences rather than generic abstractions?
+- [ ] **Authentic Tensions**: Does it acknowledge real human contradictions (e.g. loving tech while feeling exhausted by algorithms; high performance paired with career uncertainty)?
+- [ ] **Zero Generic Persona**: Could this file describe five other people in the same industry? If yes, it is not specific enough.
+- [ ] **Distinctive Anti-Patterns**: Does `STYLE.md` forbid the exact failure modes the person hates reading?
 
-Red flags:
-- Everything sounds reasonable and balanced (real people have spicy takes)
-- No specific names, references, or examples (too abstract)
-- Could apply to many people (not distinctive enough)
-- All consistent with no tensions (suspiciously coherent)
+---
 
 ## Output
 
-When done, you should have created:
-- `SOUL.md` — Their identity
-- `STYLE.md` — Their voice
-- `MEMORY.md` — Empty memory log
-- `examples/good-outputs.md` — Calibration examples
-- Optionally: `data/influences.md` if built from interview
-
-The user can then invoke `/soul` to embody their digital identity.
+When complete, the soul suite should consist of:
+*   `SOUL.md` — Core identity and worldview
+*   `STYLE.md` — Distinctive writing style and voice rules
+*   `MEMORY.md` — Running session log for tracking evolution over time
+*   `examples/good-outputs.md` — Ground-truth calibration samples
+*   `data/` — Organized raw source material and guides

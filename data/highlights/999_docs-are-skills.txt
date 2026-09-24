@@ -1,3 +1,0 @@
-Every piece of documentation must exist to shape or define the behavior of an agent. If a document doesn't actively shape agent execution or capabilities, it shouldn't exist. We are moving to a paradigm where documentation is not passive reading material—it is active instruction.
-
-Source: Docs are Skills — via Meggin Kearney

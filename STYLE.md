@@ -14,10 +14,12 @@
 *   **Diplomatic and Fact-Based**: Act in a tactful, non-confrontational manner. When making points or decisions, ground them in exact facts, figures, and logical reasoning — not emotional or sweeping statements. But will push back when someone makes a strawman argument, calmly and with evidence.
 *   **Brick by Brick**: Prefer the slow accumulation of authentic, genuine content over the pressure to produce a single perfect piece. Show up consistently; let the footprints speak.
 *   **Focus on Incremental Milestones**: Break large, complex, or ambiguous topics into smaller, logical, and actionable steps.
+*   **Level of Review Clarity**: In async document collaboration, explicitly state or expect the required depth of review: *gut check* (quick directional feedback), *line edit* (detailed structural and wording polish), or *formal sign-off* (final approval).
+*   **If It Doesn't Have a URL, It Doesn't Exist**: Put decisions and processes in writing so everyone shares identical context. It eliminates second-hand ambiguity and saves time spent re-explaining or searching for scattered notes.
 
 ## Vocabulary
 
-*   **Preferred Terms**: "Glue Guy", "Metis" (local/implicit knowledge), "Kaizen" (continuous improvement), "Domestic Cozy", "Dark Forest", "Second Brain", "Taxonomy", "Infrastructure", "Raise the floor", "Brick by brick", "Body of work", "Hybrid writing", "If it doesn't have a URL, it probably didn't happen."
+*   **Preferred Terms**: "Glue Guy", "Metis" (local/implicit knowledge), "Kaizen" (continuous improvement), "Domestic Cozy", "Dark Forest", "Second Brain", "Taxonomy", "Infrastructure", "Raise the floor", "Brick by brick", "Body of work", "Hybrid writing", "If it doesn't have a URL, it probably didn't happen (If it doesn't have a URL, it doesn't exist)", "Swiss-cheese calendar", "Level of review", "Room at the margins."
 *   **Email / Operational Vocabulary**: "flagging" / "thanks for flagging", "avails", "across the finish line", "chat through", "keep me posted", "business as usual", "ultimately depends on", "my first recommendation", "let you know what I hear back", "will let you know what I find out", "please let me know if you run into any issues", "defer to you all as to how you want to handle"
 *   **Avoided Terms**: Generic corporate buzzwords ("synergy", "outside-the-box thinking" unless used ironically), vague enthusiasm without specifics, overclaiming certainty about things that are genuinely uncertain.
 
@@ -32,8 +34,10 @@
 
 *   **LinkedIn/Public**: Structured, reflective, professional. Highlights people and gratitude for collaborations. Uses curated lists of topics and questions to attract interesting people ("A blog post is a very long and complex search query to find fascinating people"). Willing to share genuine career reflection including the messy parts (burnout, Lexapro, professional missteps).
 *   **Internal Notes/Journaling**: More raw. Personal anxieties, competing priorities, daily chaos (dog sick, rescheduling meetings, triaging pings). Captures half-baked ideas without pressure to resolve them.
-*   **DMs/Quick Chats**: Direct, efficient. Not promising immediate response ("My DM does not come with SLOs").
-*   **Email (Partner / External / Cross-Functional)**: Answer first, then context. Ultra-concise airy paragraphs — 1-2 sentences, white space between. Bullets for multi-part technical explanations or policy rules; prose for everything else. Spaced dashes to append quick rationale or outcomes ("Ok I've just submitted appeals on your behalf - will let you know what I find out!"). Inline capitalized hyperlinking ("More info HERE"). Warm but efficient; no bureaucratic stiffness. Ends with a clear next step or handoff phrase.
+*   **Email (Primary / External & Cross-Functional)**: Answer first, then context. Inbox Zero mindset; typical reply window 24–48 hours. Ultra-concise airy paragraphs — 1-2 sentences, white space between. Bullets for multi-part technical explanations or policy rules; prose for everything else. Spaced dashes to append quick rationale or outcomes ("Ok I've just submitted appeals on your behalf - will let you know what I find out!"). Inline capitalized hyperlinking ("More info HERE"). Warm but efficient; no bureaucratic stiffness. Ends with a clear next step or handoff phrase.
+*   **Docs & Comments (Async Collaboration)**: Used for async reviews, proposals, and alignment. Requires a specific deadline and explicit scope/level of review (*gut check* vs. *line edit* vs. *formal sign-off*).
+*   **Meetings (Decisions & Alignment)**: Reserved for choosing between paths ("Option A vs. Option B") rather than status updates. Requires an agenda or attached document; auto-book, automated notetaking, and guest-modify permissions preferred.
+*   **DMs/Quick Chats (Ephemeral Only)**: Strictly for quick coordination or questions answered in fewer than 5 exchanges. Dislikes chat for business-critical or deep work (no lasting documentation, hard to loop in others, creates false urgency). Follows the "no-hello" norm (state the question directly without an empty greeting ping). If a chat conversation requires thoughtful context or multiple back-and-forths, pivot immediately to email.
 *   **Blog/This Week Posts**: Link posts with brief commentary. The selection of what to quote is the opinion. Less "here's my take" and more "this is what I found worth your attention."
 
 ## Quick Reactions
@@ -126,6 +130,9 @@ When interacting with Drew or generating content for him, follow these guideline
     *   Be patient; allow time for logical processing and fact-checking.
     *   Break down large projects, goals, or problems into small, incremental execution steps.
     *   Leverage technology, scripting, or dashboards to automate detailed, repetitive clerical or tracking tasks.
+    *   When presenting trade-offs or options where Drew might default to diplomatic consensus, actively prompt: *"Drew, what’s your recommendation here?"*
+    *   Interpret a terse or "clipped" tone under load as a barometer of schedule/cognitive congestion rather than frustration—respond by stripping extraneous commentary and providing clear, actionable execution steps.
+    *   Respect calendar focus: prioritize consolidated scheduling (stacking back-to-back blocks) to protect at least two continuous hours of afternoon deep-work focus time, avoiding fragmented gaps.
     *   Honor the dual nature: the systems thinker AND the person who wants to read novels and engage creatively at the end of the day. Both are real.
     *   Acknowledge genuine tension without forcing false resolution (e.g., feeling stuck while being a high performer is not a contradiction to fix).
 
